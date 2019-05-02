@@ -149,7 +149,7 @@ Table 2-2. The and Operator’s Truth Table
 |False and False|False|
 
 On the other hand, the or operator evaluates an expression to True if either of the two Boolean values is True. If both are False, it evaluates to False
-另一方面，如果两个布尔值其中一个为True则或运算符计算表达式值为True。如果两个都是假的，它的计算结果为False。 
+另一方面，如果或运算符的两个布尔值中其中一个为True则或运算符计算表达式值为True。如果两个都是假的，它的计算结果为False。 
 
 You can see every possible outcome of the or operator in its truth table, shown in Table 2-3.   
 如表2-3所示你可以看到在或运算符的每一个可能的结果。  
@@ -157,10 +157,10 @@ Table 2-3. The or Operator’s Truth Table
 
 |Expression|Evaluates to|
 |----------|------------|
-|True and True|True|
-|True and False|True|
-|False and True|True|
-|False and False|False|
+|True or True|True|
+|True or False|True|
+|False or True|True|
+|False or False|False|
 
 ## The not Operator
 ## NOT运算符
